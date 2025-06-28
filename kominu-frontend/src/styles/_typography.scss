@@ -1,4 +1,4 @@
-@import './variables';
+@import '@styles/variables';
 
 $font-header: 'Inter', sans-serif;
 $font-body: 'Roboto', sans-serif;
@@ -13,6 +13,7 @@ body {
 h1, h2 {
   font-family: $font-body;
   color: $color-text-dark;
+  font-weight: 500;
 }
 
 header, footer {
