@@ -1,0 +1,21 @@
+@import './variables';
+
+$font-header: 'Inter', sans-serif;
+$font-body: 'Roboto', sans-serif;
+
+body {
+  font-family: $font-body;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: $color-text-dark;
+}
+
+h1, h2 {
+  font-family: $font-body;
+  color: $color-text-dark;
+}
+
+header, footer {
+  font-family: $font-header;
+  color: $color-text-light;
+}
