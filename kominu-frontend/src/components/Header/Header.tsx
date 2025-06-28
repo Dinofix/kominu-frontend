@@ -5,9 +5,9 @@ const Header = () => {
 
   return (
     <header className='header'>
-      <div className='header__logo'> 
-      <img src={logo} alt="Kominu logotyp" className='header__logo-img'/>
-      </div>
+   <a href="/" className='header__logo'>
+   <img src={logo} alt="Kominu logotyp" className='header__logo-img' />
+   </a>
       <nav className='header__nav'>
         <div className='dropdown'>
           <a href="#" className='dropdown__toggle'>
