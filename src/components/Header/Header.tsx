@@ -14,7 +14,7 @@ const Header = () => {
             Våra system <span className='dropdown__icon'>▼</span>
           </a>
           <div className='dropdown__menu'>
-            <a href="/besokssystem">Besöksystem</a>
+            <a href="/visitorsystem">Besöksystem</a>
           </div>
         </div>
         

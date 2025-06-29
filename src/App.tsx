@@ -1,19 +1,19 @@
 
 import './App.scss'
-import BenefitsSection from './components/BenefitsSection/BenefitsSection'
-import Footer from './components/Footer/Footer'
-import Header from './components/Header/Header'
-import Hero from './components/Hero/Hero'
+import Home from './pages/Home';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import VisitorSystem from './pages/VisitorSystem';
 
 
-
-export default function App() {
+function App() {
   return (
-    <>
-      <Header />
-      <Hero />
-      <BenefitsSection />
-      <Footer />
-    </>
+  <Router>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path='/visitorsystem' element={<VisitorSystem />} />
+    </Routes>
+  </Router>
   )
 }
+
+export default App;
