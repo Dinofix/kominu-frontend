@@ -1,0 +1,74 @@
+@import "../../styles/variables";
+
+.footer {
+  display: grid;
+  grid-template-rows: repeat(3);
+  background-color: $color-primary;
+  padding: 2rem;
+
+  &__logo {
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+
+  .footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+  }
+
+  &__contact {
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+
+    a {
+      color: $color-text-light;
+      text-decoration: none;
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: $color-text-dark;
+      }
+    }
+  }
+
+  &__social {
+    grid-row: 2;
+
+    p {
+      padding-bottom: 15px;
+    }
+
+    a {
+      color: $color-text-light;
+      text-decoration: none;
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: $color-text-dark;
+      }
+    }
+  }
+
+  &__copyright {
+    grid-row: 3;
+    display: flex;
+    justify-content: start;
+  }
+}
+
+.footer__logo img {
+  width: 15rem;
+  height: auto;
+}
+
+.footer__social img {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
