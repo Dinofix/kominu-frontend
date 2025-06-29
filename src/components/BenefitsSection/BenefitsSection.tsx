@@ -7,12 +7,12 @@ const BenefitsSection = () => {
   return (
     <div className='benefits-section'>
       <section className='cloud-section'>
-        <img src={cloud} alt="molnsymbol" />
+        <img src={cloud} alt="cloud logo" />
         <h2>Webbaserat</h2>
         <p>Kominu funkar direkt i webbläsaren. Inget att installera, bara att logga in och köra, var du än är.</p>
       </section>
       <section className='link-section'>
-        <img src={link} alt="länksymbol" />
+        <img src={link} alt="link logo" />
         <h2>Ingen bindningstid</h2>
         <p>Du väljer själv hur länge du vill använda Kominu, avsluta eller uppgradera när det passar dig, helt utan bindningstid.</p>
       </section>
