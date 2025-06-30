@@ -18,8 +18,8 @@ const Header = () => {
           </div>
         </div>
         
-        <a href="#">Kontakt</a>
-        <a href="#">Boka demo</a>
+        <a href="#footer">Kontakt</a>
+        <a href="mailto:adnan@kominu.se?subject=Boka%20demo">Boka demo</a>
       </nav>
 
     </header>

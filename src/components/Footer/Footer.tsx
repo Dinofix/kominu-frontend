@@ -6,7 +6,7 @@ import instagram from "../../assets/IG.png";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" id="footer">
       <section className="footer__logo">
         <img src={logo} alt="Footer logo" />
       </section>
